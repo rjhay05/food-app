@@ -1,0 +1,58 @@
+
+.list {
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-bottom: 2px solid rgb(165, 41, 41);
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.button-subtract, .button-add{
+    font-size: large;
+    width: 2.5rem;
+    border-radius: 5px;
+    border-color: rgb(165, 41, 41);
+}
+.button-subtract{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.button-add {
+    background:  rgb(165, 41, 41);
+    color: antiquewhite;
+}
+
+.button-add:hover, .button-subtract:hover{
+    background: rgb(56, 43, 43);
+    border-color: rgb(56, 43, 43);
+    color: antiquewhite;
+}
+
+.button-add:active, .button-subtract:active{
+    background: rgba(154, 123, 123, 0.4);
+}
+
+
+.list p {
+    display: inline;
+    margin-right: 5rem;
+    color:  rgb(165, 41, 41);
+    font-weight: 700;
+}
+
+.list span{
+    border: 0.5px solid black;
+    background-color: white;
+    border-radius: 3px;
+    font-size: small;
+    padding: 0.3em;
+    font-weight:700;
+    font-size: smaller;
+}

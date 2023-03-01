@@ -1,0 +1,19 @@
+.menu-container{
+    background-color: antiquewhite;
+    width: 90%;;
+    margin: 3rem auto;
+}
+
+.menu-container ul{
+    list-style: none;
+    line-height: 1.5em;
+}
+
+
+@media (min-width: 912px){
+    .menu-container{
+        width:70%;;
+    }
+        
+        }
+

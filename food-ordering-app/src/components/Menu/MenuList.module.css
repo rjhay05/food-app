@@ -1,0 +1,9 @@
+.list-item {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-description h3 {
+    color: rgb(255, 98, 0);
+}

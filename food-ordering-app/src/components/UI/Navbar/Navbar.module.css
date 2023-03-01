@@ -1,0 +1,18 @@
+.navbar {
+width: 100%;
+background: rgb(165, 41, 41);
+padding: 1rem;
+
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color:antiquewhite
+}
+
+.navbar ul li h1{
+    padding-top: 0.2em;
+   
+}

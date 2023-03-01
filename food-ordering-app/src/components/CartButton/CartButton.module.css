@@ -1,0 +1,50 @@
+.button {
+    background-color: rgb(75, 61, 61);
+    border-color: rgb(75, 61, 61);;
+    width: 200px;
+    height: 45px;
+    border-radius: 20px;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+
+.button:hover{
+    background: rgb(48, 47, 47);
+}
+
+
+.button span {
+    background-color: rgb(165, 41, 41);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 15px;
+    margin-left: 5px;
+    
+
+}
+
+.bump {
+    animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+    0%{
+        transform: scale(1)
+    }
+    10%{
+        transform: scale(.9)
+    }
+    30%{
+        transform: scale(1.1)
+    }
+    500%{
+        transform: scale(1.15)
+    }
+    100%{
+        transform: scale(1)
+    }
+}
+
+.no-value{
+    display: none;
+}

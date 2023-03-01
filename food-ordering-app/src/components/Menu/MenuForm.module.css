@@ -1,0 +1,21 @@
+.actions form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actions button {
+    margin-top: 1rem;
+}
+
+.actions input {
+    width: 50px;
+    padding: 0.2rem;
+    font-size: large;
+    font-weight: bold;
+}
+
+.actions label{
+    font-weight: bold;
+    margin-right: 1rem;
+}
